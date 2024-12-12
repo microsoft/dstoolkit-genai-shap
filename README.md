@@ -1,14 +1,26 @@
-# Project
+# SHAP (SHapley Additive exPlanations) for Generative AI Solutions
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
 
-As the maintainer of this project, please make a few updates:
+## Getting started
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+### Prerrequisites
+- Install python 3.9.13: [https://www.python.org/downloads/release/python-3913/](https://www.python.org/downloads/release/python-3913/)
+- Install Ollama and run ollama3.2: [https://ollama.com/](https://ollama.com/)
+  > `ollama pull llama3.2` 
+
+### Installation steps
+
+1. Clone this repo locally: [https://github.com/microsoft/dstoolkit-genai-shap](https://github.com/microsoft/dstoolkit-genai-shap)
+   > `git clone https://github.com/microsoft/dstoolkit-genai-shap.git`
+2. Create virtual environment and activate it:
+   > `cd dstoolkit-genai-shap.git`
+   > `python3 -m venv .venv`
+4. Install package dependencies to run the notebooks:
+   > `pip install -r requirements.txt`
+5. Open jupyter lab:
+   > `jupyter lab`
+6. Open `getting-started.ipynb` notebook under the `notebooks` folder and follow the steps.
+
 
 ## Contributing
 

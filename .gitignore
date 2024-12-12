@@ -9,6 +9,8 @@ venv.bak/
 
 # Notebooks
 .ipynb_checkpoints
+data
+rag_evaluator_pack
 
 # Library
 __pycache__

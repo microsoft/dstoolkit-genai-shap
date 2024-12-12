@@ -1,0 +1,9 @@
+# Configuration file for notebooks
+
+dataset:
+    dataset_class: DocugamiKgRagSec10Q
+    download_dir: ./data
+
+local_model:
+    embedding_model_name: BAAI/bge-base-en-v1.5
+    llm_model_name: llama3.2

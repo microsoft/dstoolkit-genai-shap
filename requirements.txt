@@ -1,2 +1,6 @@
 # Requiments for running notebooks
 
+jupyter
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-ollama

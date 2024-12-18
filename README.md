@@ -1,14 +1,30 @@
-# Project
+# SHAP (SHapley Additive exPlanations) for Generative AI Solutions
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
 
-As the maintainer of this project, please make a few updates:
+## Getting started
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+### Prerrequisites
+- Install python 3.9.13: [https://www.python.org/downloads/release/python-3913/](https://www.python.org/downloads/release/python-3913/)
+
+### Installation steps
+
+1. Clone this repo locally: [https://github.com/microsoft/dstoolkit-genai-shap](https://github.com/microsoft/dstoolkit-genai-shap)
+   > `git clone https://github.com/microsoft/dstoolkit-genai-shap.git`
+2. Create virtual environment and activate it:
+   > `cd dstoolkit-genai-shap.git`
+   > `python3 -m venv .venv`
+4. Install package dependencies to run the notebooks:
+   > `pip install -r requirements.txt`
+5. Create `.env` file by copying the `.env.template` file:
+   > `cp .env.template .env`
+6. Edit `.env` file and update the environment variables. 
+7. Open jupyter lab:
+   > `jupyter lab`
+8. Execute the following notebooks under the `docs/examples` folder and follow the steps:
+   * `01-create-test-dataset.ipynb`
+   * `02-gaishap-featurizer.ipynb`
+   * `03-gaishap-blackbox-model.ipynb`
+
 
 ## Contributing
 

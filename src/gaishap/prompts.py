@@ -1,14 +1,18 @@
-# TODO: Evaluate few shot vs one shot performance
+""" Library with all the prompt templates
+"""
 
+# TODO: Evaluate few shot vs one shot performance
 _CREATE_FEATURES_PROMPT : str = """
 Use the following questions (user inputs) to create a list of {num_features} features to classify each question. 
 
 - Use JSON format to present the output.
-- For each feature define its type among the following: "boolean", "string", "list_of_strings"
+- For each feature define its type among the following: "boolean" or "list_of_strings"
 
 ---
 
 # Example 1
+
+Producing 12 features from 9 questions.
 
 ## Input:
 
@@ -53,12 +57,13 @@ The following are the questions for you to process:
 
 """
 
+# TODO: Evaluate few shot vs one shot performance
 _FILL_OUT_FEATURES_PROMPT : str = """
 Use the following list of questions as source to fill out each feature.
 
 - Use JSON format to present the output.
 - The definition of the features is in JSON format.
-- Each feature has a type from the following list of feature types: "boolean", "string", "list_of_strings"
+- Each feature has a type from the following list of feature types: "boolean" or "list_of_strings"
 
 ---
 

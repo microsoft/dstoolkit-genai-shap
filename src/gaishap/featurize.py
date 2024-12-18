@@ -12,19 +12,15 @@ from openai import AzureOpenAI
 import os
 import math
 import random
-from enum import Enum
 from tqdm.auto import tqdm
 import warnings
-
-from ._utils import create_azure_openai_client, split_list, question_formating
+from ._utils import (
+    create_azure_openai_client, 
+    split_list, 
+    question_formating,
+    FType
+)
 from .prompts import _CREATE_FEATURES_PROMPT, _FILL_OUT_FEATURES_PROMPT
-
-class FType(str, Enum):
-    """ Feature type class to define the supported features types.
-    """
-    BOOLEAN = "boolean"
-    LIST_OF_STRINGS = "list_of_strings"
-    STRING = "string"
 
 class Feature(BaseModel):
     feature : str
@@ -35,7 +31,7 @@ class Features(BaseModel):
 
 class FeatureValue(BaseModel):
     feature : str
-    value : Union[bool, List[str], str]
+    value : Union[bool, List[str]]
 
 class FeaturesWithValue(BaseModel):
     question : str
@@ -52,9 +48,6 @@ class Featurizer(BaseModel):
     ----------
     user_inputs : List[str]
         List of user inputs or questions of the test dataset.
-    metrics : Dict[str, List[float]]
-        Dictionary of strings to List of float numbers that defines the 
-        Generative AI metrics already calculated that require explanations.
     features : Dict[str, str]
         Dictionary that defines the list of features of the questions or
         user inputs that will be used as regressors for the black-box model
@@ -62,27 +55,20 @@ class Featurizer(BaseModel):
     """
     
     user_inputs : List[str]
-    metrics : Dict[str, List[float]]
     features : Features = Features(features=[])
     _feature_values : FeatureValues(feature_values=[])
 
     @classmethod
     def from_pandas(cls, df : pd.DataFrame):
         """ Class method to create a Featurizer instance from a pandas 
-        DataFrame. The DataFrame should contain the following columns:
-        * user_input of type string
-        * at least one column of type float
-
-        All float columns with variance greater than zero will be created as 
-        metrics.
+        DataFrame. The DataFrame should contain a column named user_input of
+        type string.
 
         Parameters
         ----------
-        df : Pandas DataFrame
+        df : pandas.DataFrame
             Pandas DataFrame that should have a "user_input" column with the
-            list of questions that are part of the test dataset, and at least
-            one numerical column that will be assumed to be the Generative AI
-            metrics columns that require explanations.
+            list of questions that are part of the test dataset.
         """
 
         if not isinstance(df, pd.DataFrame):
@@ -91,20 +77,18 @@ class Featurizer(BaseModel):
         if 'user_input' not in df.columns:
             raise ValidationError("Missing user_input column in DataFrame.")
 
+        if df['user_input'].isna().any():
+            raise ValidationError("user_input column has null values")
+
+        if not df['user_input'].is_unique:
+            raise ValidationError("user_input column has duplicated values")
+        
         try:
             user_inputs = df['user_input'].astype("string").to_list()
         except:
             raise ValidationError("Column user_input has non-string values.")
 
-        metrics = {}
-        for column in df.columns:
-            if df[column].dtype in ("float64", "int64") and \
-            df[column].var() > 0.0:
-                metrics[column] = df[column].astype('float').to_list()
-        if len(metrics) == 0:
-            raise ValidationError("No metrics columns found.")
-
-        return cls(user_inputs=user_inputs, metrics=metrics)
+        return cls(user_inputs=user_inputs)
 
     # TODO: Include support to more model clients like OpenAI, HuggingFace or 
     # Llama
@@ -232,6 +216,15 @@ class Featurizer(BaseModel):
         self,
         feature_values : FeatureValues
     ) -> None:
+        """ Private Method to validate if the featurizer produced the same
+        number of records as input and the features values are related to
+        the same exact questions.
+
+        Parameters
+        ----------
+        features_values : FeatureValues
+            Final output of the featurizer.
+        """
 
         if len(feature_values.feature_values) != len(self.user_inputs):
             raise ValidationError(
@@ -256,12 +249,27 @@ class Featurizer(BaseModel):
             )
             warning.warn(message)
 
+
+    # TODO: Include support to more model clients like OpenAI, HuggingFace or 
+    # Llama
     def _fill_out_features(
         self,
         model_client : Any,
         model_name : str,
         batch_size : PositiveInt = 20
     ) -> None:
+        """ Generic method to fillout the features.
+        
+        Parameters
+        ----------
+        model_client : Any
+            Client of the model to be used to call the model. Only AzureOpenAI
+            is supported by now.
+        model_name : str
+            Name of the model to be used to create the question features.
+        batch_size : str
+            Size of the batch of questions to fill out the features.
+        """
 
         if not isinstance(model_client, AzureOpenAI):
             raise ValidationError(

@@ -7,3 +7,4 @@ llama-index-llms-azure-openai
 llama-index-embeddings-azure-openai
 ragas
 python-dotenv
+matplotlib

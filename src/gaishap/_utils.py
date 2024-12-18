@@ -1,6 +1,10 @@
+""" Library of internal reusable utilities
+"""
+
 import os
 from pydantic import ValidationError
 from openai import AzureOpenAI
+from enum import Enum
 
 def create_azure_openai_client() -> AzureOpenAI:
     """ Function to validate if the required environment variables are setted
@@ -39,3 +43,19 @@ def question_formating(questions: list[str]) -> str:
     return "\n".join([f"[QUESTION {idx}] {user_input}" \
                       for idx, user_input \
                       in zip(range(1,len(questions)+1), questions)])
+
+class FType(str, Enum):
+    """ Feature type class to define the supported features types.
+    """
+    BOOLEAN = "boolean"
+    LIST_OF_STRINGS = "list_of_strings"
+
+def _syntetic_value(val:str):
+    """ Returns the syntetic representation of the val string
+
+    Parameters
+    ----------
+    val : str
+        Value to convert to systetic representation
+    """
+    return val.lower().strip().replace(' ','_')

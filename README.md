@@ -5,8 +5,6 @@
 
 ### Prerrequisites
 - Install python 3.9.13: [https://www.python.org/downloads/release/python-3913/](https://www.python.org/downloads/release/python-3913/)
-- Install Ollama and run ollama3.2: [https://ollama.com/](https://ollama.com/)
-  > `ollama pull llama3.2` 
 
 ### Installation steps
 
@@ -17,9 +15,15 @@
    > `python3 -m venv .venv`
 4. Install package dependencies to run the notebooks:
    > `pip install -r requirements.txt`
-5. Open jupyter lab:
+5. Create `.env` file by copying the `.env.template` file:
+   > `cp .env.template .env`
+6. Edit `.env` file and update the environment variables. 
+7. Open jupyter lab:
    > `jupyter lab`
-6. Open `getting-started.ipynb` notebook under the `notebooks` folder and follow the steps.
+8. Execute the following notebooks under the `docs/examples` folder and follow the steps:
+   * `01-create-test-dataset.ipynb`
+   * `02-gaishap-featurizer.ipynb`
+   * `03-gaishap-blackbox-model.ipynb`
 
 
 ## Contributing

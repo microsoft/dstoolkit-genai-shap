@@ -1347,7 +1347,7 @@
             "most recent quarter"
         ],
         "is_a_comparison_question":true,
-        "is_a_question_about_trends_or_changes_over_time":true,
+        "is_a_question_about_trends_or_changes_over_time":false,
         "is_a_question_about_identification_of_factors_or_insights":true,
         "is_a_question_related_to_the_notes_section":false
     },
@@ -1829,9 +1829,9 @@
         "list_if_financial_metrics_identified_in_the_question":[
 
         ],
-        "there_is_any_specific_quarter_identified_in_the_question":true,
+        "there_is_any_specific_quarter_identified_in_the_question":false,
         "list_of_quarters_identified_in_the_question":[
-            "most recent 10-Q"
+
         ],
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":false,
@@ -1851,9 +1851,9 @@
         "list_if_financial_metrics_identified_in_the_question":[
             "gross margin"
         ],
-        "there_is_any_specific_quarter_identified_in_the_question":true,
+        "there_is_any_specific_quarter_identified_in_the_question":false,
         "list_of_quarters_identified_in_the_question":[
-            "most recent 10-Q"
+
         ],
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":false,
@@ -1919,9 +1919,9 @@
         "list_if_financial_metrics_identified_in_the_question":[
             "revenue"
         ],
-        "there_is_any_specific_quarter_identified_in_the_question":true,
+        "there_is_any_specific_quarter_identified_in_the_question":false,
         "list_of_quarters_identified_in_the_question":[
-            "latest quarter"
+
         ],
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":false,
@@ -1939,7 +1939,7 @@
         ],
         "there_is_any_financial_metric_identified_in_the_question":true,
         "list_if_financial_metrics_identified_in_the_question":[
-            "total revenue"
+            "revenue"
         ],
         "there_is_any_specific_quarter_identified_in_the_question":true,
         "list_of_quarters_identified_in_the_question":[
@@ -2074,9 +2074,9 @@
         "list_if_financial_metrics_identified_in_the_question":[
             "effective tax rate"
         ],
-        "there_is_any_specific_quarter_identified_in_the_question":true,
+        "there_is_any_specific_quarter_identified_in_the_question":false,
         "list_of_quarters_identified_in_the_question":[
-            "latest 10-Q"
+
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
@@ -2140,9 +2140,9 @@
         "list_if_financial_metrics_identified_in_the_question":[
 
         ],
-        "there_is_any_specific_quarter_identified_in_the_question":true,
+        "there_is_any_specific_quarter_identified_in_the_question":false,
         "list_of_quarters_identified_in_the_question":[
-            "most recent 10-Q"
+
         ],
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":false,
@@ -2184,9 +2184,9 @@
         "list_if_financial_metrics_identified_in_the_question":[
             "gross margin"
         ],
-        "there_is_any_specific_quarter_identified_in_the_question":true,
+        "there_is_any_specific_quarter_identified_in_the_question":false,
         "list_of_quarters_identified_in_the_question":[
-            "most recent 10-Q"
+
         ],
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":false,
@@ -2280,7 +2280,7 @@
         ],
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -2479,7 +2479,7 @@
         ],
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":true,
-        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -2546,7 +2546,7 @@
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -2612,7 +2612,7 @@
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -2937,7 +2937,7 @@
         ],
         "there_is_any_financial_metric_identified_in_the_question":true,
         "list_if_financial_metrics_identified_in_the_question":[
-            "revenue breakdown"
+            "revenue"
         ],
         "there_is_any_specific_quarter_identified_in_the_question":true,
         "list_of_quarters_identified_in_the_question":[
@@ -3055,7 +3055,7 @@
         ],
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -3224,7 +3224,8 @@
         ],
         "there_is_any_financial_metric_identified_in_the_question":true,
         "list_if_financial_metrics_identified_in_the_question":[
-            "liquidity and capital resources",
+            "liquidity",
+            "capital resources",
             "cash flow from operations"
         ],
         "there_is_any_specific_quarter_identified_in_the_question":true,
@@ -3234,7 +3235,7 @@
         "is_a_comparison_question":false,
         "is_a_question_about_trends_or_changes_over_time":false,
         "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_the_notes_section":true
+        "is_a_question_related_to_the_notes_section":false
     },
     {
         "there_is_any_company_indentified_in_the_question":true,
@@ -3319,7 +3320,7 @@
         "list_of_quarters_identified_in_the_question":[
             "most recent 10-Q"
         ],
-        "is_a_comparison_question":false,
+        "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
         "is_a_question_about_identification_of_factors_or_insights":true,
         "is_a_question_related_to_the_notes_section":true
@@ -3701,7 +3702,7 @@
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
         "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_the_notes_section":true
+        "is_a_question_related_to_the_notes_section":false
     },
     {
         "there_is_any_company_indentified_in_the_question":true,
@@ -3723,7 +3724,7 @@
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
         "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_the_notes_section":true
+        "is_a_question_related_to_the_notes_section":false
     },
     {
         "there_is_any_company_indentified_in_the_question":true,
@@ -3871,7 +3872,8 @@
         ],
         "there_is_any_financial_metric_identified_in_the_question":true,
         "list_if_financial_metrics_identified_in_the_question":[
-            "global market revenues"
+            "global market revenues",
+            "foreign exchange risk"
         ],
         "there_is_any_specific_quarter_identified_in_the_question":true,
         "list_of_quarters_identified_in_the_question":[
@@ -3880,7 +3882,7 @@
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
         "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_the_notes_section":true
+        "is_a_question_related_to_the_notes_section":false
     },
     {
         "there_is_any_company_indentified_in_the_question":true,
@@ -3949,7 +3951,7 @@
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
         "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_the_notes_section":true
+        "is_a_question_related_to_the_notes_section":false
     },
     {
         "there_is_any_company_indentified_in_the_question":true,
@@ -4060,7 +4062,7 @@
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -4083,7 +4085,7 @@
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -4129,7 +4131,7 @@
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -4137,14 +4139,13 @@
         "list_of_companies_identified_in_the_question":[
             "Amazon"
         ],
-        "there_is_any_business_segment_indentified_in_the_question":true,
+        "there_is_any_business_segment_indentified_in_the_question":false,
         "list_of_business_segments_identified_in_the_question":[
-            "international markets"
+
         ],
         "there_is_any_financial_metric_identified_in_the_question":true,
         "list_if_financial_metrics_identified_in_the_question":[
-            "revenues",
-            "currency exchange risks"
+            "revenues from international markets"
         ],
         "there_is_any_specific_quarter_identified_in_the_question":true,
         "list_of_quarters_identified_in_the_question":[
@@ -4152,7 +4153,7 @@
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -4209,9 +4210,9 @@
         "list_of_business_segments_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_metric_identified_in_the_question":true,
+        "there_is_any_financial_metric_identified_in_the_question":false,
         "list_if_financial_metrics_identified_in_the_question":[
-            "market risks"
+
         ],
         "there_is_any_specific_quarter_identified_in_the_question":true,
         "list_of_quarters_identified_in_the_question":[
@@ -4242,7 +4243,7 @@
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
         "is_a_question_related_to_the_notes_section":false
     },
     {
@@ -4331,7 +4332,7 @@
         ],
         "is_a_comparison_question":true,
         "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
         "is_a_question_related_to_the_notes_section":false
     }
 ]

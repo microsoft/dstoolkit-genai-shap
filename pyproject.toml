@@ -23,7 +23,9 @@ dependencies = [
     "pydantic",
     "pandas",
     "openai",
-    "tqdm"
+    "tqdm",
+    "scikit-learn",
+    "shap"
 ]
 packages = [
     { include = "gaishap", from = "src" },

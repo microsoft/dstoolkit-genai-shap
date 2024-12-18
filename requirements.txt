@@ -1,7 +1,9 @@
 # Requiments for running notebooks
+-e .
 
 jupyter
 llama-index
-llama-index-embeddings-huggingface
-llama-index-llms-ollama
+llama-index-llms-azure-openai
+llama-index-embeddings-azure-openai
 ragas
+python-dotenv

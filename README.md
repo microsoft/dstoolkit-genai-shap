@@ -13,11 +13,18 @@
 2. Create virtual environment and activate it:
    > `cd dstoolkit-genai-shap.git`
    > `python3 -m venv .venv`
+3. Define the encoding setting for the virtual environment:
+   * For Windows:
+     > Navigate to `.venv\Scripts\ctivate.bat`
+     > Add these two lines at the bottom of the file:
+      > `set PYTHONIOENCODING=utf-8`
+      > `set PYTHONUTF8=1`
+
 4. Install package dependencies to run the notebooks:
    > `pip install -r requirements.txt`
 5. Create `.env` file by copying the `.env.template` file:
    > `cp .env.template .env`
-6. Edit `.env` file and update the environment variables. 
+6. Edit `.env` file and update the environment variables.
 7. Open jupyter lab:
    > `jupyter lab`
 8. Execute the following notebooks under the `docs/examples` folder and follow the steps:
@@ -42,8 +49,8 @@ contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additio
 
 ## Trademarks
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft
+trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.

@@ -14,9 +14,9 @@
    > `cd dstoolkit-genai-shap.git`
    > `python3 -m venv .venv`
 3. Define the encoding setting for the virtual environment:
-   * For Windows:
-     > Navigate to `.venv\Scripts\ctivate.bat`
-     > Add these two lines at the bottom of the file:
+   - For Windows:
+     * Navigate to `.venv\Scripts\ctivate.bat`
+     * Add these two lines at the bottom of the file:
       > `set PYTHONIOENCODING=utf-8`
       > `set PYTHONUTF8=1`
 

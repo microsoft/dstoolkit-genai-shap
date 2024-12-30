@@ -6,7 +6,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# macos
 .DS_store
+.Trash*
 
 # Notebooks
 .ipynb_checkpoints

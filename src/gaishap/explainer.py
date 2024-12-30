@@ -5,11 +5,15 @@ be used to create the explanations using shap.
 
 from typing import List, Dict, Union, Any
 from pydantic import BaseModel, ValidationError
-from ._utils import _syntetic_value
+from ._utils import (
+    _syntetic_value, 
+    _calculate_minimum_sample_size, 
+    _automl,
+    _samples_from_different_population,
+    _pairs_out_of_range
+)
 import pandas as pd
-from sklearn.model_selection import GridSearchCV
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import r2_score
+import warnings
 from tqdm.auto import tqdm
 import shap
 
@@ -32,9 +36,10 @@ class GenAIExplainer(BaseModel):
     metrics : Dict[str, List[float]]
     features : Dict[str, List[Union[bool, List[str]]]]
     preprocessed_features : Dict[str, List[float]] = {}
-    models_ : Dict[str, Any] = {}
+    estimators_ : Dict[str, Any] = {}
     r2_scores_ : Dict[str, float] = {}
     explainers_ : Dict[str, Any] = {}
+    is_out_of_range_ : Dict[str, List[bool]] = {}
 
     @classmethod
     def from_pandas(
@@ -84,6 +89,14 @@ class GenAIExplainer(BaseModel):
             raise ValidationError(
                 "The number of records of df_features is different than the "
                 "number of records of df_test_dataset."
+            )
+
+        if df_features.shape[0] < _calculate_minimum_sample_size():
+            warnings.warn(
+                "The number of samples is too small for the training of a "
+                "black-box model that should produce estimated metrics whose"
+                "distribution should be statistically comparable with the "
+                "original metric distribution."
             )
 
         if not (df_test_dataset.index == df_features.index).all():
@@ -214,35 +227,55 @@ class GenAIExplainer(BaseModel):
 
         self.preprocessed_features = df_preprocessed.to_dict(orient='list')
 
-    # TODO: Test with other models like XGBoost
     def create_explainers(
         self,
     ) -> None:
         """ Method to train the BlackBoxModel
         """
-        parameters = {
-            'n_estimators': [20, 50, 100, 200],
-            'max_depth': [10, 20, None]
-            
-        }
-
+        
         X = pd.DataFrame(self.preprocessed_features)
 
-        self.models_ = {}
+        self.estimators_ = {}
         self.r2_scores_ = {}
         self.explainers_ = {}
+        self.is_out_of_range_ = {}
         
-        for metric in tqdm(self.metrics):
-        
-            model = GridSearchCV(
-                estimator = RandomForestRegressor(n_jobs=-1, random_state=42), 
-                param_grid = parameters,
-                n_jobs=-1
-            )
+        for metric in tqdm(self.metrics, "Metric loop"):
             y = pd.Series(self.metrics[metric], name=metric)
-            model.fit(X,y)
-            self.models_[metric] = model
-            self.r2_scores_[metric] = r2_score(y, model.predict(X))
-            self.explainers_[metric] = shap.Explainer(model.best_estimator_)
+            best_estimator, r2_score = _automl(metric, X, y)
             
-    
+            self.estimators_[metric] = best_estimator
+            self.r2_scores_[metric] = r2_score
+            try:
+                self.explainers_[metric] = shap.Explainer(best_estimator)
+            except TypeError:
+                self.explainers_[metric] = shap.KernelExplainer(
+                    best_estimator.predict,
+                    X
+                )
+
+            # Check if the model trained estimate the metric producing values
+            # that are statistically comparable with the original metrics
+
+            y_hat = best_estimator.predict(X)
+            
+            if _samples_from_different_population(y, y_hat):
+                warnings.warn(
+                    f"The best estimator for metric {metric} is producing "
+                    "results that differs significantly with respect to the "
+                    "original metrics. This could lead to produce misleading "
+                    "explanations. Please change the features used to train "
+                    "the black-box model."
+                )
+
+            # Check whether there are estimated values too far from the 
+            # original values
+
+            is_out_of_range, out_of_range = _pairs_out_of_range(y, y_hat)
+            if len(out_of_range) > 0:
+                warnings.warn(
+                    f"There are estimated values in the metric {metric} too "
+                    "farm from the original values. The following is the list "
+                    f"of indexes {out_of_range}."
+                )
+            self.is_out_of_range_[metric] = is_out_of_range

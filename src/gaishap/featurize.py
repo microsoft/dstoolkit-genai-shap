@@ -247,7 +247,7 @@ class Featurizer(BaseModel):
             message += "\n".join(
                 [f"QIN: {qin}\nQOU: {qou}\n" for qin, qout in differences]
             )
-            warning.warn(message)
+            warnings.warn(message)
 
 
     # TODO: Include support to more model clients like OpenAI, HuggingFace or 

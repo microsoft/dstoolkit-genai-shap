@@ -92,7 +92,7 @@ def _samples_from_different_population(
 def _pairs_out_of_range(
     y: pd.Series, 
     y_hat: np.array,
-    alpha: float = 0.05
+    alpha: float = 0.005
 ) -> (list[bool], list[int]):
     """ Function to validate the difference of all pairs actual_value vs 
     estimated_value to check which pairs are out of the confidence interval 

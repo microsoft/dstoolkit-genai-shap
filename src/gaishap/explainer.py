@@ -229,8 +229,21 @@ class GenAIExplainer(BaseModel):
 
     def create_explainers(
         self,
+        alpha_sample : float = 0.05,
+        alpha_instance : float = 0.005
     ) -> None:
-        """ Method to train the BlackBoxModel
+        """ Method to train the BlackBoxModel and create explainers.
+
+        Parameters
+        ----------
+        alpha_sample : float
+            Alpha level (significance level) to be used for the t-test to 
+            evaluate if the estimated values follows the same distribution as 
+            the original values.
+        alpha_instance: float
+            Alpha level (significance level) to be used for the calculation of
+            the conficende interval to check whether an estimated value is too
+            far from the original value.
         """
         
         X = pd.DataFrame(self.preprocessed_features)
@@ -259,7 +272,11 @@ class GenAIExplainer(BaseModel):
 
             y_hat = best_estimator.predict(X)
             
-            if _samples_from_different_population(y, y_hat):
+            if _samples_from_different_population(
+                y, 
+                y_hat, 
+                alpha=alpha_sample
+            ):
                 warnings.warn(
                     f"The best estimator for metric {metric} is producing "
                     "results that differs significantly with respect to the "
@@ -271,11 +288,15 @@ class GenAIExplainer(BaseModel):
             # Check whether there are estimated values too far from the 
             # original values
 
-            is_out_of_range, out_of_range = _pairs_out_of_range(y, y_hat)
+            is_out_of_range, out_of_range = _pairs_out_of_range(
+                y, 
+                y_hat, 
+                alpha=alpha_instance
+            )
             if len(out_of_range) > 0:
                 warnings.warn(
-                    f"There are estimated values in the metric {metric} too "
-                    "farm from the original values. The following is the list "
-                    f"of indexes {out_of_range}."
+                    f"There are {len(out_of_range)} estimated values in the "
+                    f"metric {metric} too farm from the original values. The "
+                    f"following is the list of indexes {out_of_range}."
                 )
             self.is_out_of_range_[metric] = is_out_of_range

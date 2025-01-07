@@ -13,18 +13,21 @@
 
 ---
 
-Generative AI SHAP (GAISHAP) is a python library that supports the creation of explanations for solutions based on LLMs (Large Language Models) or SLMs (Small Language Models). 
+Generative AI SHAP (GAISHAP) is a python library that supports the creation of explanations to the metrics obtained for solutions based on LLMs (Large Language Models) or SLMs (Small Language Models). 
 
-When building a LLM-or-SLM based solution one of the first challenges is how to measure the quality of the responses from the "Bot". Here, libraries like  [RAGAS](https://github.com/explodinggradients/ragas) or [promptflow](https://github.com/microsoft/promptflow) help on the evaluation of the quality of the solution by using metrics like **faithfulness**, **groundedness**, **context precision**, **context recall**, among others.
+When building an LLM-or-SLM based solution one of the first challenges is how to measure the quality of the responses from the "Agent". Here, libraries like  [RAGAS](https://github.com/explodinggradients/ragas) or [promptflow](https://github.com/microsoft/promptflow) help on the evaluation of the quality of the solution by using metrics like **faithfulness**, **groundedness**, **context precision**, **context recall**, among others.
 
 The next challenge is to add explainability to those quality metrics.  To answer questions like: 
 
-- *What are the common characteristics of the user questions that produces good or bad **faithfulness**?*
+- *Why a particular question is marked with a higher/lower metric (e.g., faithfulness)?*
+- *What are the common characteristics of the user questions that produce good or bad **faithfulness**?*
 - *What type of prompts produce better or lower **context recall**?*
 
 The answer of those questions helps on the debugging of the overall solution and gives more insights to where to focus the next steps to improve the metrics.
 
 ***GAISHAP*** was created to fulfill that need. It works as follows.
+
+***GAISHAP*** will create regression models, which we call them **black-box models**, for each of the metrics and will use those black-box models to produce explanations for each metric. The models are created from features extracted from the provided questions. Those **question features** could be generated automatically, using a tool, named **Featurizer** incorporated in the library or they can be manually created.
 
 ### Input
 
@@ -45,10 +48,12 @@ df_test_dataset.head(10)
 <img src="./docs/img/input_example.png" width="1200" />
 
 > In this example, the column `user_input` will be used to refer to the user prompt, and the columns `faithfulness`, `context_precision` and `context_recall` will be used as metric columns since those columns are numerical.
+>
+> The other columns, `retrieved_contexts`, `response`, and `reference` are not needed for **gaishap** but are normally required for the calculation of the metrics.
 
 ### Featurizer
 
-***GAISHAP*** has an utilily to automatically create features from the `user_input` entries.  Those features, are characteristics of the user questions that will be used as regressors to train a blackbox model that will be used to calculate the explanations.  It is possible to manually add, remove, or modify those automatically generated features to improve the quality of the explanations.
+***GAISHAP*** has an utilily to automatically create features from the `user_input` entries.  Those features, are characteristics of the user questions that will be used as regressors to train a black-box model that will be used to calculate the explanations.  It is possible to manually add, remove, or modify those automatically generated features to improve the quality of the explanations.s
 
 The following is an example of how to automatically generate the features that will be used as regressors for the black-box model:
 
@@ -66,20 +71,20 @@ The following are the features generated:
 
 - there_is_any_person_identified_in_the_question
 - list_of_people_identified_in_the_question
-- there_is_any_technology_or_programming_language_identified_in_the_question
-- list_of_technologies_or_programming_languages_identified_in_the_question
+- there_is_any_technology_or_tool_identified_in_the_question
+- list_of_technologies_or_tools_identified_in_the_question
+- there_is_any_academic_or_professional_transition_identified_in_the_question
+- list_of_academic_or_professional_transitions_identified_in_the_question
 - there_is_any_company_or_organization_identified_in_the_question
 - list_of_companies_or_organizations_identified_in_the_question
 - is_a_question_about_personal_experiences_or_decisions
-- is_a_question_about_technological_innovations_or_developments
+- is_a_question_about_technological_or_software_development
 - is_a_question_about_artistic_or_creative_processes
-- is_a_question_about_business_or_startup_strategies
-- is_a_question_about_educational_or_learning_experiences
-- is_a_question_related_to_the_concept_of_invention_vs_discovery
+- is_a_question_related_to_business_or_startup_strategies
 
-> Currently, there are two types of features supported: **boolean** and **list of strings**.
+> Currently, there are two types of features supported: **boolean** and **list of strings**. The goal is to be able to capture the characteristics of the different user queries in a way that can be easily interpretable by a human, and at the same time these features should be able to be engineered to be used as regressors for the blac-box regression models.
 
-Then, ***GAISHAP*** also includes another utility to automatically filling out the values for each user input for each feature. 
+Then, ***GAISHAP*** also includes another utility to automatically fill out the values for each user input for each feature. 
 
 ```python
 featurizer.fill_out_features_using_azure_openai(deployment_name="gpt-4o", batch_size=20)
@@ -119,18 +124,20 @@ print(gai_explainer.r2_scores_)
 
 The following are examples of the coeficient of determination (r2) scores for each of the best model trained for each metric:
 
-- **faithfulness**: 0.918
-- **context_precision**: 0.894
-- **context_recall**: 0.900
+- **faithfulness**: 0.752
+- **context_precision**: 0.999
+- **context_recall**: 0.938
 
 > During the training and selection of the best models a **t-test** is performed to evaluate if the estimated metric using the models produces a statistically related sample from the same population of the original metric: fail to reject the null hypothesis that both, the original metric and the estimated metric are sanples from the same population. If the t-test rejects the null hypothesis a warning message is displayed during the creation of the explainers.  The explainers cannot be used as reference. 
 
 > Also, as a rule of thumb, if the `r2_score` is high (>0.75) the explanations of black-box model could be used as reference. If it is lower, the use of the explainers could produce misleading conclusions.
 
-The following is an example of how to use the explainers for the **context_precision** metric for the full dataset:
+Just as an example, let's use **context recall** for now.  It is possible, at this point to generate explanations at the full dataset level to answer questions like: *What are the more relevant features of the questions that drives a higher, or lower **context recall**?*
+
+It is possible to do it, for example, using the SHAP suymmary plot, as follows:
 
 ```python
-metric = 'context_precision'
+metric = 'context_recall'
 
 X = pd.DataFrame(gai_explainer.preprocessed_features)
 metric_explainer = gai_explainer.explainers_[metric]
@@ -143,17 +150,17 @@ The following is the SHAP Summary Plot generated:
 
 <img src="./docs/img/shap_summary_plot_example.png" width="1200" />
 
-> From this plot we can conclude, for example, that the **context precision**:
-> - Is higher in questions where Paul Graham is mentioned explicitely.
-> - In contrast, questions that have mentions of "Interleaf", "Robert Morris", "Jessica" and the ARC programming languages have lower **context precision**.
-> This type of information can be used as insights to guide next steps to improve the overall **context precision** of the solution.
+> From this plot we can conclude, for example, that the **context recall**:
+> - Is higher when the question is not about personal experiences or decisions.
+> - In contrast, questions where it is possible to identify a company or there is a explicit reference to the author have higher **context recall**.
+> 
+> This type of information can be used as insights to guide next steps to improve the overall **context recall** of the solution.
 
+During the creation of the explainers other warnings related to the safe use of the explainers can be raised. For example warinings like the following can be risen when creating the explainers for the **context recall** metric:
 
-During the creation of the explainers other warnings related to the safe use of the explainers can be raised. Warinings like:
+> `UserWarning: There are 6 estimated values in the metric context_recall too farm from the original values. The following is the list of indexes [18, 19, 26, 27, 37, 39].`
 
-> `UserWarning: There are 8 estimated values in the metric faithfulness too farm from the original values. The following is the list of indexes [3, 4, 5, 8, 18, 19, 39, 40].`
-
-These warnings are show because during the creation of the training of the black-box model to create the explainers, there is a process to evaluate how far are the estimated values of each metric compared to the original one, using t-distribution and confidence intervals.  If an instance is out of the confidence interval it is marked as too far from the original value and the warning is shown to alert the user to use carfully the instance explanations for those specific instances.
+These warnings are shown because during the creation of the training of the black-box model to create the explainers, there is a process to evaluate how far are the estimated values of each metric compared to the original one, using t-distribution and confidence intervals.  If an instance is out of the confidence interval it is marked as too far from the original value and the warning is shown to alert the user to use carfully the instance explanations for those specific instances.
 
 The following table shows a comparison of the original metric values compared with the estimated values calculated using the black-box model, and the identification if the instance is **out of range** and therefore the explanations should be used carefully for those instances.
 
@@ -174,15 +181,71 @@ df_metric.style.apply(
 )
 ```
 
-The following is an example of how to produce explanations for an specific instance, **9th instance** of the **faithfulness** metric, which is not out-of-range:
+As an example let's pick the **14th index**, which has a context recall of 0, and an extimated value of 0.001. The following are the details of that instance:
+
+
+### INDEX 14
+
+**USER INPUT:**
+In the essay by Paul Graham, what was the initial idea for a startup that he and Robert Morris had, and why did it fail?
+
+**RETRIEVED CONTEXT:**
+
+
+**CHUNK 1:**
+
+Over the next several years I wrote lots of essays about all kinds of different topics. O'Reilly reprinted a collection of them as a book, called Hackers & Painters after one of the essays in it. I also worked on spam filters, and did some more painting. I used to have dinners for a group of friends every thursday night, which taught me how to cook for groups. And I bought another building in Cambridge, a former candy factory (and later, twas said, porn studio), to use as an office.
+
+One night in October 2003 there was a big party at my house. It was a clever idea of my friend Maria Daniels, who was one of the thursday diners. Three separate hosts would all invite their friends to one party. So for every guest, two thirds of the other guests would be people they didn't know but would probably like. One of the guests was someone I didn't know but would turn out to like a lot: a woman called Jessica Livingston. A couple days later I asked her out.
+
+Jessica was in charge of marketing at a Boston investment bank. This bank thought it understood startups, but over the next year, as she met friends of mine from the startup world, she was surprised how different reality was. And how colorful their stories were. So she decided to compile a book of interviews with startup founders.
+
+When the bank had financial problems and she had to fire half her staff, she started looking for a new job. In early 2005 she interviewed for a marketing job at a Boston VC firm. It took them weeks to make up their minds, and during this time I started telling her about all the things that needed to be fixed about venture capital. They should make a larger number of smaller investments instead of a handful of giant ones, they should be funding younger, more technical founders instead of MBAs, they should let the founders remain as CEO, and so on.
+
+One of my tricks for writing essays had always been to give talks. The prospect of having to stand up in front of a group of people and tell them something that won't waste their time is a great spur to the imagination. When the Harvard Computer Society, the undergrad computer club, asked me to give a talk, I decided I would tell them how to start a startup. Maybe they'd be able to avoid the worst of the mistakes we'd made.
+
+So I gave this talk, in the course of which I told them that the best sources of seed funding were successful startup founders, because then they'd be sources of advice too. Whereupon it seemed they were all looking expectantly at me. Horrified at the prospect of having my inbox flooded by business plans (if I'd only known), I blurted out "But not me!" and went on with the talk. But afterward it occurred to me that I should really stop procrastinating about angel investing. I'd been meaning to since Yahoo bought us, and now it was 7 years later and I still hadn't done one angel investment.
+
+Meanwhile I had been scheming with Robert and Trevor about projects we could work on together. I missed working with them, and it seemed like there had to be something we could collaborate on.
+
+As Jessica and I were walking home from dinner on March 11, at the corner of Garden and Walker streets, these three threads converged. Screw the VCs who were taking so long to make up their minds. We'd start our own investment firm and actually implement the ideas we'd been talking about. I'd fund it, and Jessica could quit her job and work for it, and we'd get Robert and Trevor as partners too. [13]
+
+Once again, ignorance worked in our favor. We had no idea how to be angel investors, and in Boston in 2005 there were no Ron Conways to learn from. So we just made what seemed like the obvious choices, and some of the things we did turned out to be novel.
+
+There are multiple components to Y Combinator, and we didn't figure them all out at once. The part we got first was to be an angel firm. In those days, those two words didn't go together. There were VC firms, which were organized companies with people whose job it was to make investments, but they only did big, million dollar investments. And there were angels, who did smaller investments, but these were individuals who were usually focused on other things and made investments on the side. And neither of them helped founders enough in the beginning. We knew how helpless founders were in some respects, because we remembered how helpless we'd been. For example, one thing Julian had done for us that seemed to us like magic was to get us set up as a company.
+
+**CHUNK 2:**
+
+So we just made what seemed like the obvious choices, and some of the things we did turned out to be novel.
+
+There are multiple components to Y Combinator, and we didn't figure them all out at once. The part we got first was to be an angel firm. In those days, those two words didn't go together. There were VC firms, which were organized companies with people whose job it was to make investments, but they only did big, million dollar investments. And there were angels, who did smaller investments, but these were individuals who were usually focused on other things and made investments on the side. And neither of them helped founders enough in the beginning. We knew how helpless founders were in some respects, because we remembered how helpless we'd been. For example, one thing Julian had done for us that seemed to us like magic was to get us set up as a company. We were fine writing fairly difficult software, but actually getting incorporated, with bylaws and stock and all that stuff, how on earth did you do that? Our plan was not only to make seed investments, but to do for startups everything Julian had done for us.
+
+YC was not organized as a fund. It was cheap enough to run that we funded it with our own money. That went right by 99% of readers, but professional investors are thinking "Wow, that means they got all the returns." But once again, this was not due to any particular insight on our part. We didn't know how VC firms were organized. It never occurred to us to try to raise a fund, and if it had, we wouldn't have known where to start. [14]
+
+The most distinctive thing about YC is the batch model: to fund a bunch of startups all at once, twice a year, and then to spend three months focusing intensively on trying to help them. That part we discovered by accident, not merely implicitly but explicitly due to our ignorance about investing. We needed to get experience as investors. What better way, we thought, than to fund a whole bunch of startups at once? We knew undergrads got temporary jobs at tech companies during the summer. Why not organize a summer program where they'd start startups instead? We wouldn't feel guilty for being in a sense fake investors, because they would in a similar sense be fake founders. So while we probably wouldn't make much money out of it, we'd at least get to practice being investors on them, and they for their part would probably have a more interesting summer than they would working at Microsoft.
+
+We'd use the building I owned in Cambridge as our headquarters. We'd all have dinner there once a week â on tuesdays, since I was already cooking for the thursday diners on thursdays â and after dinner we'd bring in experts on startups to give talks.
+
+We knew undergrads were deciding then about summer jobs, so in a matter of days we cooked up something we called the Summer Founders Program, and I posted an announcement on my site, inviting undergrads to apply. I had never imagined that writing essays would be a way to get "deal flow," as investors call it, but it turned out to be the perfect source. [15] We got 225 applications for the Summer Founders Program, and we were surprised to find that a lot of them were from people who'd already graduated, or were about to that spring. Already this SFP thing was starting to feel more serious than we'd intended.
+
+We invited about 20 of the 225 groups to interview in person, and from those we picked 8 to fund. They were an impressive group. That first batch included reddit, Justin Kan and Emmett Shear, who went on to found Twitch, Aaron Swartz, who had already helped write the RSS spec and would a few years later become a martyr for open access, and Sam Altman, who would later become the second president of YC. I don't think it was entirely luck that the first batch was so good. You had to be pretty bold to sign up for a weird thing like the Summer Founders Program instead of a summer job at a legit place like Microsoft or Goldman Sachs.
+
+The deal for startups was based on a combination of the deal we did with Julian ($10k for 10%) and what Robert said MIT grad students got for the summer ($6k). We invested $6k per founder, which in the typical two-founder case was $12k, in return for 6%. That had to be fair, because it was twice as good as the deal we ourselves had taken. Plus that first summer, which was really hot, Jessica brought the founders free air conditioners.
+
+**RESPONSE:**
+The essay does not provide specific details about an initial startup idea that Paul Graham and Robert Morris had, nor does it mention why such an idea might have failed.
+
+**REFERENCE:**
+The initial idea for a startup by Paul Graham and Robert Morris was to put art galleries online. The idea failed because art galleries didn't want to be online, especially the fancy ones, as that's not how they sell. They wrote software to generate web sites for galleries and to resize images and set up an http server to serve the pages, but they struggled to sign up galleries. Even when they offered to make sites for free, they couldn't get galleries to pay for the service.
+
+**METRIC:** context_recall
+
+**METRIC Value:** 0.000
+
+**MODEL ESTIMATED Value:** 0.001
 
 ```python
-metric = 'faithfulness'
-
-metric_explainer = gai_explainer.explainers_[metric]
-shap_values = metric_explainer(X)
-
-index = 9
+index = 14
 shap.waterfall_plot(shap_values[index])
 ```
 
@@ -190,7 +253,10 @@ The generated plot is:
 
 <img src="./docs/img/waterfall_example.png" width="800" />
 
-> From this plot we can conclude that the reduction of the **faithfulness** for this specific instance was mainly driven by the mention of "Interleaf" and because it is a question about technological innovations and developments.
+> The horizontal axis of the SHAP whaterfall plot shows the contributions of individual features to the model's prediction for a specific instance. The sum of all the contributions will be the final instance predicted value. 
+>
+> From this plot we can conclude that the reduction of the **context recall** for this specific instance was mainly driven by the explicit mention of "Robert Morris" and because it is a question with no mention of any specific company in the question.  Looking at the details of this instance we can conclude that LlamaIndex was not able to pick the right documents that includes the answer to the question, and that the drivers of the error could be the combination of the mention of Robert Morris together with the absence of the mention of a specific company.
+> 
 > This type of information add insights at the instance level on how to improve the overal quality of the solution.
 
 ## Example Notebooks

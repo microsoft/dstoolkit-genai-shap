@@ -296,7 +296,7 @@ class GenAIExplainer(BaseModel):
             if len(out_of_range) > 0:
                 warnings.warn(
                     f"There are {len(out_of_range)} estimated values in the "
-                    f"metric {metric} too farm from the original values. The "
+                    f"metric {metric} too far from the original values. The "
                     f"following is the list of indexes {out_of_range}."
                 )
             self.is_out_of_range_[metric] = is_out_of_range

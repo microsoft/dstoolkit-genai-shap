@@ -31,9 +31,9 @@ The answer of those questions helps on the debugging of the overall solution and
 
 ### Input
 
-***GAISHAP*** uses as starting point a simple evaluation dataset with at least the following columns:
+***GAISHAP*** starts with a simple evaluation dataset with at least the following columns:
 
-- User input, question or prompt. Column name should be `user_input` and its type should be string.
+- User input, question or prompt. The column name should be `user_input` and its type should be string.
 - One column for each metric already calculated, for example **faithfulness**, **context precision**, **context recall**.  All numerical columns will be assumed to be a metric column.
 
 Example of the input using the [Paul Graham Essay Dataset](https://llamahub.ai/l/llama_datasets/Paul%20Graham%20Essay?from=llama_datasets):
@@ -53,7 +53,7 @@ df_test_dataset.head(10)
 
 ### Featurizer
 
-***GAISHAP*** has an utilily to automatically create features from the `user_input` entries.  Those features, are characteristics of the user questions that will be used as regressors to train a black-box model that will be used to calculate the explanations.  It is possible to manually add, remove, or modify those automatically generated features to improve the quality of the explanations.s
+***GAISHAP*** has an utilily to automatically create features from the `user_input` entries.  Those features, are characteristics of the user questions that will be used as regressors to train a black-box model that will be used to calculate the explanations.  It is possible to manually add, remove, or modify those automatically generated features to improve the quality of the explanations.
 
 The following is an example of how to automatically generate the features that will be used as regressors for the black-box model:
 
@@ -82,7 +82,7 @@ The following are the features generated:
 - is_a_question_about_artistic_or_creative_processes
 - is_a_question_related_to_business_or_startup_strategies
 
-> Currently, there are two types of features supported: **boolean** and **list of strings**. The goal is to be able to capture the characteristics of the different user queries in a way that can be easily interpretable by a human, and at the same time these features should be able to be engineered to be used as regressors for the blac-box regression models.
+> Currently, there are two types of features supported: **boolean** and **list of strings**. The goal is to be able to capture the characteristics of the different user queries in a way that can be easily interpretable by a human, and at the same time these features should be able to be engineered to be used as regressors for the black-box regression models.
 
 Then, ***GAISHAP*** also includes another utility to automatically fill out the values for each user input for each feature. 
 
@@ -122,19 +122,19 @@ gai_explainer.create_explainers()
 print(gai_explainer.r2_scores_)
 ```
 
-The following are examples of the coeficient of determination (r2) scores for each of the best model trained for each metric:
+The following are examples of the coefficients of determination (r2) scores for each of the best model trained for each metric:
 
 - **faithfulness**: 0.752
 - **context_precision**: 0.999
 - **context_recall**: 0.938
 
-> During the training and selection of the best models a **t-test** is performed to evaluate if the estimated metric using the models produces a statistically related sample from the same population of the original metric: fail to reject the null hypothesis that both, the original metric and the estimated metric are sanples from the same population. If the t-test rejects the null hypothesis a warning message is displayed during the creation of the explainers.  The explainers cannot be used as reference. 
+> During the training and selection of the best models a **t-test** is performed to evaluate if the estimated metric using the models produces a statistically related sample from the same population of the original metric: fail to reject the null hypothesis that both, the original metric and the estimated metric are samples from the same population. If the t-test rejects the null hypothesis a warning message is displayed during the creation of the explainers.  The explainers cannot be used as reference. 
 
 > Also, as a rule of thumb, if the `r2_score` is high (>0.75) the explanations of black-box model could be used as reference. If it is lower, the use of the explainers could produce misleading conclusions.
 
 Just as an example, let's use **context recall** for now.  It is possible, at this point to generate explanations at the full dataset level to answer questions like: *What are the more relevant features of the questions that drives a higher, or lower **context recall**?*
 
-It is possible to do it, for example, using the SHAP suymmary plot, as follows:
+It is possible to do it, for example, using the SHAP summary plot, as follows:
 
 ```python
 metric = 'context_recall'
@@ -156,11 +156,11 @@ The following is the SHAP Summary Plot generated:
 > 
 > This type of information can be used as insights to guide next steps to improve the overall **context recall** of the solution.
 
-During the creation of the explainers other warnings related to the safe use of the explainers can be raised. For example warinings like the following can be risen when creating the explainers for the **context recall** metric:
+During the creation of the explainers other warnings related to the safe use of the explainers can be raised. For example warinings like the following can be rised when creating the explainers for the **context recall** metric:
 
-> `UserWarning: There are 6 estimated values in the metric context_recall too farm from the original values. The following is the list of indexes [18, 19, 26, 27, 37, 39].`
+> `UserWarning: There are 6 estimated values in the metric context_recall too far from the original values. The following is the list of indexes [18, 19, 26, 27, 37, 39].`
 
-These warnings are shown because during the creation of the training of the black-box model to create the explainers, there is a process to evaluate how far are the estimated values of each metric compared to the original one, using t-distribution and confidence intervals.  If an instance is out of the confidence interval it is marked as too far from the original value and the warning is shown to alert the user to use carfully the instance explanations for those specific instances.
+These warnings are shown because during the creation of the training of the black-box model to create the explainers, there is a process to evaluate how far are the estimated values of each metric compared to the original one, using t-distribution and confidence intervals.  If an instance is out of the confidence interval it is marked as too far from the original value and the warning is shown to alert the user to use carefully the instance explanations for those specific instances.
 
 The following table shows a comparison of the original metric values compared with the estimated values calculated using the black-box model, and the identification if the instance is **out of range** and therefore the explanations should be used carefully for those instances.
 
@@ -253,11 +253,11 @@ The generated plot is:
 
 <img src="./docs/img/waterfall_example.png" width="800" />
 
-> The horizontal axis of the SHAP whaterfall plot shows the contributions of individual features to the model's prediction for a specific instance. The sum of all the contributions will be the final instance predicted value. 
+> The horizontal axis of the SHAP waterfall plot shows the contributions of individual features to the model's prediction for a specific instance. The sum of all the contributions will be the final instance predicted value. 
 >
 > From this plot we can conclude that the reduction of the **context recall** for this specific instance was mainly driven by the explicit mention of "Robert Morris" and because it is a question with no mention of any specific company in the question.  Looking at the details of this instance we can conclude that LlamaIndex was not able to pick the right documents that includes the answer to the question, and that the drivers of the error could be the combination of the mention of Robert Morris together with the absence of the mention of a specific company.
 > 
-> This type of information add insights at the instance level on how to improve the overal quality of the solution.
+> This type of information adds insights at the instance level on how to improve the overall quality of the solution.
 
 ## Example Notebooks
 

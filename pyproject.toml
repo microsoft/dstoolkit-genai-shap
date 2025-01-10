@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "gaishap"
+name = "genaishap"
 version = "0.0.1"
 authors = [
     { name="Gustavo Pabon", email="gustavo.pabon@microsoft.com" },
@@ -30,7 +30,7 @@ dependencies = [
     "scipy"
 ]
 packages = [
-    { include = "gaishap", from = "src" },
+    { include = "genaishap", from = "src" },
 ]
 
 [project.urls]

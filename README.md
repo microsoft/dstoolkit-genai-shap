@@ -5,7 +5,7 @@
         border="1" />
 </h1>
 <h1 align="center">
-    <b>GAISHAP</b>
+    <b>GenAISHAP</b>
 </h1>
 <h4 align="center">
     <i>Explainations for Generative AI, LLM-and-SLM-Based, Solutions</i> ⚡️
@@ -13,7 +13,7 @@
 
 ---
 
-Generative AI SHAP (GAISHAP) is a python library that supports the creation of explanations to the metrics obtained for solutions based on LLMs (Large Language Models) or SLMs (Small Language Models). 
+Generative AI SHAP (GenAISHAP) is a python library that supports the creation of explanations to the metrics obtained for solutions based on LLMs (Large Language Models) or SLMs (Small Language Models). 
 
 When building an LLM-or-SLM based solution one of the first challenges is how to measure the quality of the responses from the "Agent". Here, libraries like  [RAGAS](https://github.com/explodinggradients/ragas) or [promptflow](https://github.com/microsoft/promptflow) help on the evaluation of the quality of the solution by using metrics like **faithfulness**, **groundedness**, **context precision**, **context recall**, among others.
 
@@ -25,13 +25,13 @@ The next challenge is to add explainability to those quality metrics.  To answer
 
 The answer of those questions helps on the debugging of the overall solution and gives more insights to where to focus the next steps to improve the metrics.
 
-***GAISHAP*** was created to fulfill that need. It works as follows.
+***GenAISHAP*** was created to fulfill that need. It works as follows.
 
-***GAISHAP*** will create regression models, which we call them **black-box models**, for each of the metrics and will use those black-box models to produce explanations for each metric. The models are created from features extracted from the provided questions. Those **question features** could be generated automatically, using a tool, named **Featurizer** incorporated in the library or they can be manually created.
+***GenAISHAP*** will create regression models, which we call them **black-box models**, for each of the metrics and will use those black-box models to produce explanations for each metric. The models are created from features extracted from the provided questions. Those **question features** could be generated automatically, using a tool, named **Featurizer** incorporated in the library or they can be manually created.
 
 ### Input
 
-***GAISHAP*** starts with a simple evaluation dataset with at least the following columns:
+***GenAISHAP*** starts with a simple evaluation dataset with at least the following columns:
 
 - User input, question or prompt. The column name should be `user_input` and its type should be string.
 - One column for each metric already calculated, for example **faithfulness**, **context precision**, **context recall**.  All numerical columns will be assumed to be a metric column.
@@ -49,16 +49,16 @@ df_test_dataset.head(10)
 
 > In this example, the column `user_input` will be used to refer to the user prompt, and the columns `faithfulness`, `context_precision` and `context_recall` will be used as metric columns since those columns are numerical.
 >
-> The other columns, `retrieved_contexts`, `response`, and `reference` are not needed for **gaishap** but are normally required for the calculation of the metrics.
+> The other columns, `retrieved_contexts`, `response`, and `reference` are not needed for **GenAISHAP** but are normally required for the calculation of the metrics.
 
 ### Featurizer
 
-***GAISHAP*** has an utilily to automatically create features from the `user_input` entries.  Those features, are characteristics of the user questions that will be used as regressors to train a black-box model that will be used to calculate the explanations.  It is possible to manually add, remove, or modify those automatically generated features to improve the quality of the explanations.
+***GenAISHAP*** has an utilily to automatically create features from the `user_input` entries.  Those features, are characteristics of the user questions that will be used as regressors to train a black-box model that will be used to calculate the explanations.  It is possible to manually add, remove, or modify those automatically generated features to improve the quality of the explanations.
 
 The following is an example of how to automatically generate the features that will be used as regressors for the black-box model:
 
 ```python
-from gaishap import Featurizer
+from genaishap import Featurizer
 
 # Loads the input from the df_test_dataset pandas DataFrame
 featurizer = Featurizer.from_pandas(df_test_dataset)
@@ -84,7 +84,7 @@ The following are the features generated:
 
 > Currently, there are two types of features supported: **boolean** and **list of strings**. The goal is to be able to capture the characteristics of the different user queries in a way that can be easily interpretable by a human, and at the same time these features should be able to be engineered to be used as regressors for the black-box regression models.
 
-Then, ***GAISHAP*** also includes another utility to automatically fill out the values for each user input for each feature. 
+Then, ***GenAISHAP*** also includes another utility to automatically fill out the values for each user input for each feature. 
 
 ```python
 featurizer.fill_out_features_using_azure_openai(deployment_name="gpt-4o", batch_size=20)
@@ -102,14 +102,14 @@ df_features = featurizer.to_pandas()
 
 ### Explainers
 
-Once, the user input features and its corresponding values are defined, ***GAISHAP*** can start working on the next steps:
+Once, the user input features and its corresponding values are defined, ***GenAISHAP*** can start working on the next steps:
 
 - Feature engineering
 - Regression black-box model training
 - Creation of SHAP explainers
 
 ```python
-from gaishap import GenAIExplainer
+from genaishap import GenAIExplainer
 
 gai_explainer = GenAIExplainer.from_pandas(df_test_dataset, df_features)
 
@@ -271,14 +271,14 @@ The following are the steps to be able to execute the example notebooks
 
 1. Clone this repo locally: [https://github.com/microsoft/dstoolkit-genai-shap](https://github.com/microsoft/dstoolkit-genai-shap)
    > `git clone https://github.com/microsoft/dstoolkit-genai-shap.git`
-2. Build gaishap image:
+2. Build GenAISHAP image:
    > `cd dstoolkit-genai-shap`
    > 
    > `make build-image`
 3. Create `.env` file by copying the `.env.template` file:
    > `cp .env.template .env`
 4. Edit `.env` file and update the environment variables.
-5. Run gaishap container and open jupyter lab url:
+5. Run GenAISHAP container and open jupyter lab url:
    > `make run-container`
    > 
    > Open the jupyter lab url by copying the line in the log that looks like:
@@ -288,8 +288,8 @@ The following are the steps to be able to execute the example notebooks
    > and open it in a local web navigator like Microsoft Edge.
 6. Execute the following notebooks under the `docs/examples` folder and follow the steps:
    * `01-create-test-dataset.ipynb`
-   * `02-gaishap-featurizer.ipynb`
-   * `03-gaishap-blackbox-model.ipynb`
+   * `02-genaishap-featurizer.ipynb`
+   * `03-genaishap-explainers.ipynb`
 
 
 ## Contributing

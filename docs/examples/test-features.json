@@ -4,280 +4,309 @@
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
             "programming"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "AI"
+        "there_is_any_educational_institution_identified_in_the_question":true,
+        "list_of_educational_institutions_identified_in_the_question":[
+            "college"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "AI"
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
             "Lisp"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":true,
+        "list_of_educational_institutions_identified_in_the_question":[
+            "grad school"
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":true,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":true,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
             "Lisp"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
-            "author"
+            "students",
+            "faculty"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":true,
+        "list_of_educational_institutions_identified_in_the_question":[
             "Accademia di Belli Arti"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":true,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":true,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
-            "Interleaf"
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
-            "Interleaf"
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":true,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":true,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "World Wide Web"
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":false,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":true,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Interleaf"
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":true,
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "author"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Interleaf"
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":true,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "artist"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":false,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":true,
+        "is_a_question_related_to_business_or_startup_strategies":false
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "author"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":false,
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "author"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":true,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":true,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
@@ -285,363 +314,400 @@
             "Paul Graham",
             "Robert Morris"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "server software"
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Viaweb"
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "author",
+            "team"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":false,
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "online store builder"
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "ecommerce software"
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Viaweb"
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "author"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Viaweb"
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
+        "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Yahoo"
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":true,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":true,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
+        "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":true,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":true,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
+        "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
-            "author"
+
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "web application"
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
+        "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
-            "author"
+
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
             "Lisp",
             "Arc"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "Paul Graham"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
             "Lisp",
             "Arc"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "Paul Graham"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "Paul Graham"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "Paul Graham"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":true,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "Paul Graham"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Y Combinator"
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
         "list_of_people_identified_in_the_question":[
             "Paul Graham"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Summer Founders Program"
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
 
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Summer Founders Program"
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
 
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Hacker News",
             "Y Combinator"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_personal_experiences_or_decisions":false,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
         "there_is_any_person_identified_in_the_question":true,
@@ -649,200 +715,243 @@
             "Paul Graham",
             "Robert Morris"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "Y Combinator"
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
+        "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
-            "author"
+
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Y Combinator"
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":true,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
+    },
+    {
+        "there_is_any_person_identified_in_the_question":false,
+        "list_of_people_identified_in_the_question":[
+
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
             "Lisp"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
-            "YC"
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Y Combinator"
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":true,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":true,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
+        "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
-            "author"
+
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
             "Lisp"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":true
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
+        "there_is_any_person_identified_in_the_question":false,
         "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "programming language"
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
 
         ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-            "programming language"
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":true,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
             "Lisp"
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":false,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
         "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_developments":true,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":false,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":true
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
+    },
+    {
+        "there_is_any_person_identified_in_the_question":false,
+        "list_of_people_identified_in_the_question":[
+
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":true,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "Paul Graham"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":true,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
+    },
+    {
+        "there_is_any_person_identified_in_the_question":false,
+        "list_of_people_identified_in_the_question":[
+
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":true,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "Paul Graham"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":false,
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "Paul Graham"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":false,
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
+    },
+    {
+        "there_is_any_person_identified_in_the_question":true,
+        "list_of_people_identified_in_the_question":[
+            "Paul Graham",
+            "McCarthy"
+        ],
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
+
+        ],
+        "there_is_any_programming_language_identified_in_the_question":true,
+        "list_of_programming_languages_identified_in_the_question":[
+            "Lisp"
+        ],
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_personal_experiences_or_decisions":false,
+        "is_a_question_about_technological_innovations_or_concepts":true,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":false
     },
     {
         "there_is_any_person_identified_in_the_question":true,
@@ -850,19 +959,21 @@
             "Paul Graham",
             "Jessica"
         ],
-        "there_is_any_technology_or_programming_language_identified_in_the_question":false,
-        "list_of_technologies_or_programming_languages_identified_in_the_question":[
+        "there_is_any_educational_institution_identified_in_the_question":false,
+        "list_of_educational_institutions_identified_in_the_question":[
 
         ],
-        "there_is_any_company_or_organization_identified_in_the_question":true,
-        "list_of_companies_or_organizations_identified_in_the_question":[
+        "there_is_any_programming_language_identified_in_the_question":false,
+        "list_of_programming_languages_identified_in_the_question":[
+
+        ],
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
             "YC"
         ],
         "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_developments":false,
-        "is_a_question_about_artistic_or_creative_processes":false,
-        "is_a_question_about_business_or_startup_strategies":true,
-        "is_a_question_about_educational_or_learning_experiences":false,
-        "is_a_question_related_to_the_concept_of_invention_vs_discovery":false
+        "is_a_question_about_technological_innovations_or_concepts":false,
+        "is_a_question_about_artistic_pursuits_or_styles":false,
+        "is_a_question_related_to_business_or_startup_strategies":true
     }
 ]

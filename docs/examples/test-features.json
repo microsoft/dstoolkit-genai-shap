@@ -1,979 +1,1116 @@
 [
     {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "programming"
-        ],
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Advancing Carbon-Free Energy"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "GHG emissions"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":true,
-        "list_of_educational_institutions_identified_in_the_question":[
-            "college"
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "Lisp"
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":true,
-        "list_of_educational_institutions_identified_in_the_question":[
-            "grad school"
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":true,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "Lisp"
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "students",
-            "faculty"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":true,
-        "list_of_educational_institutions_identified_in_the_question":[
-            "Accademia di Belli Arti"
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":true,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":true,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Interleaf"
+            "Google"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "waste diversion"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2021"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Empowering Users With Technology"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
 
         ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Interleaf"
+            "Google"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "sustainability",
+            "climate change"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2077"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":true
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "artist"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":true,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":true,
-        "is_a_question_related_to_business_or_startup_strategies":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham",
-            "Robert Morris"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Viaweb"
+            "Google"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Building Better Devices and Services"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "waste target"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2021"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":true
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author",
-            "team"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Viaweb"
+            "Google"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "EV charging locations"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2021"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "author"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Empowering Users With Technology"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
 
         ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Viaweb"
+            "Amazon"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Climate solutions"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Yahoo"
+            "Amazon"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":true,
-        "is_a_question_related_to_business_or_startup_strategies":false
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Renewable Energy goals"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "100% renewable energy"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":true
     },
     {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":true,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "Lisp",
-            "Arc"
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "Lisp",
-            "Arc"
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Y Combinator"
+            "Amazon"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Carbon goals"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "carbon"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":true
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Summer Founders Program"
+            "Amazon"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "Carbon Intensity"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2019",
+            "2020",
+            "2021",
+            "2022"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Summer Founders Program"
+            "Amazon"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "Total Carbon Footprint"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2019",
+            "2020",
+            "2021",
+            "2022"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "The Climate Page Fund"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
 
         ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
 
         ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "climate pledge"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "corporate emissions",
+            "renewable electricity"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2020"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Hacker News",
-            "Y Combinator"
+            "Apple"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "carbon footprint",
+            "avoided emissions"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham",
-            "Robert Morris"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Y Combinator"
+            "Apple"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "plastic reduction"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2015"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
 
         ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "waste redirection"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
 
         ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Y Combinator"
+            "Apple"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Apple University"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2021"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
 
         ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "Lisp"
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "millions of gallons of freshwater saved"
         ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2018"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "Total Packaging resources"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":true,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Carbon Call"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":true
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":true
+    },
+    {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "Y Combinator"
+            "Microsoft"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":true,
-        "is_a_question_related_to_business_or_startup_strategies":false
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "water access"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
     },
     {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "Lisp"
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "Lisp"
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":false,
-        "list_of_people_identified_in_the_question":[
-
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham",
-            "McCarthy"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":true,
-        "list_of_programming_languages_identified_in_the_question":[
-            "Lisp"
-        ],
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_personal_experiences_or_decisions":false,
-        "is_a_question_about_technological_innovations_or_concepts":true,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":false
-    },
-    {
-        "there_is_any_person_identified_in_the_question":true,
-        "list_of_people_identified_in_the_question":[
-            "Paul Graham",
-            "Jessica"
-        ],
-        "there_is_any_educational_institution_identified_in_the_question":false,
-        "list_of_educational_institutions_identified_in_the_question":[
-
-        ],
-        "there_is_any_programming_language_identified_in_the_question":false,
-        "list_of_programming_languages_identified_in_the_question":[
-
-        ],
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
-            "YC"
+            "Microsoft"
         ],
-        "is_a_question_about_personal_experiences_or_decisions":true,
-        "is_a_question_about_technological_innovations_or_concepts":false,
-        "is_a_question_about_artistic_pursuits_or_styles":false,
-        "is_a_question_related_to_business_or_startup_strategies":true
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "water access"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Microsoft"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "water access"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Microsoft"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "water access"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Microsoft"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "acres of land"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2025"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":true
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":true
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Meta"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Facebook"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Facebook"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2021"
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":false,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "Greenhouse Gas Emissions"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Netflix"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Netflix"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Sustainability Strategy"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+            "Scope 1 emissions",
+            "Scope 2 emissions"
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Netflix"
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Sustainability Across the Value Chain"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":false,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
+        "is_a_question_about_goals_or_targets":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":false,
+        "list_of_companies_identified_in_the_question":[
+
+        ],
+        "there_is_any_initiative_or_program_identified_in_the_question":true,
+        "list_of_initiatives_or_programs_identified_in_the_question":[
+            "Inclusion and Diversity"
+        ],
+        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
+        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "there_is_any_specific_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_trends_or_changes_over_time":false,
+        "is_a_question_about_identification_of_factors_or_insights":true,
+        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
+        "is_a_question_about_goals_or_targets":false
     }
 ]

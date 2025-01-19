@@ -230,7 +230,8 @@ class GenAIExplainer(BaseModel):
     def create_explainers(
         self,
         alpha_sample : float = 0.05,
-        alpha_instance : float = 0.005
+        alpha_instance : float = 1e-10,
+        r2_threshold : float = 0.75
     ) -> None:
         """ Method to train the BlackBoxModel and create explainers.
 
@@ -276,7 +277,7 @@ class GenAIExplainer(BaseModel):
                 y, 
                 y_hat, 
                 alpha=alpha_sample
-            ):
+            ) or r2_score < r2_threshold:
                 warnings.warn(
                     f"The best estimator for metric {metric} is producing "
                     "results that differs significantly with respect to the "
@@ -296,7 +297,7 @@ class GenAIExplainer(BaseModel):
             if len(out_of_range) > 0:
                 warnings.warn(
                     f"There are {len(out_of_range)} estimated values in the "
-                    f"metric {metric} too far from the original values. The "
+                    f"metric {metric} far from the original values. The "
                     f"following is the list of indexes {out_of_range}."
                 )
             self.is_out_of_range_[metric] = is_out_of_range

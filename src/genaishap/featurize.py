@@ -156,6 +156,8 @@ class Featurizer(BaseModel):
                 },
             ],
             temperature=0.0,
+            top_p=0.0,
+            seed=seed,
             response_format=Features 
         )
         
@@ -245,7 +247,7 @@ class Featurizer(BaseModel):
                 "bigger model >=gpt-4o.  The differences are: \n"
             )
             message += "\n".join(
-                [f"QIN: {qin}\nQOU: {qou}\n" for qin, qout in differences]
+                [f"QIN: {qin}\nQOU: {qou}\n" for qin, qou in differences]
             )
             warnings.warn(message)
 
@@ -256,7 +258,8 @@ class Featurizer(BaseModel):
         self,
         model_client : Any,
         model_name : str,
-        batch_size : PositiveInt = 20
+        batch_size : PositiveInt = 20,
+        seed : int = 42
     ) -> None:
         """ Generic method to fillout the features.
         
@@ -269,6 +272,8 @@ class Featurizer(BaseModel):
             Name of the model to be used to create the question features.
         batch_size : str
             Size of the batch of questions to fill out the features.
+        seed : int
+            Ramdom seed
         """
 
         if not isinstance(model_client, AzureOpenAI):
@@ -300,6 +305,8 @@ class Featurizer(BaseModel):
                     },
                 ],
                 temperature=0.0,
+                top_p=0.0,
+                seed=seed,
                 response_format=FeatureValues 
             )
             

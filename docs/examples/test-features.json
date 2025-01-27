@@ -4,486 +4,1085 @@
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-            "Advancing Carbon-Free Energy"
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "GHG emissions"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "GHG emissions"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "Advancing Carbon-Free Energy"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "Performance Highlights"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Google"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "waste diversion"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2021"
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "waste diversion"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":true,
+        "list_of_comparative_data_points_identified_in_the_question":[
+            "percentage of waste"
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":true,
+        "list_of_locations_identified_in_the_question":[
+            "Google's offices globally"
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-            "Empowering Users With Technology"
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "Empowering Users With Technology"
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "performance highlights"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Google"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "sustainability",
-            "climate change"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2077"
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":true
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "sustainability and climate change"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
+            "key achievement"
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Google"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-            "Building Better Devices and Services"
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "waste target"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2021"
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":true
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "Waste target"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
+            "intended Waste target"
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "Building Better Devices and Services Initiative"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Google"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2021"
+        ],
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "EV charging locations"
         ],
-        "there_is_any_specific_year_identified_in_the_question":true,
-        "list_of_years_identified_in_the_question":[
-            "2021"
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":true,
+        "list_of_locations_identified_in_the_question":[
+            "Google Maps"
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
+            "page of the report"
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
             "Empowering Users With Technology"
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
 
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "performance highlights"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "glossary"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Amazon"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
+            "page"
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "Climate solutions"
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
 
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Amazon"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-            "Renewable Energy goals"
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "Renewable Energy"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
             "100% renewable energy"
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":true
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Amazon"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "Carbon goals"
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "carbon"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":true
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
+            "Carbon goals"
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "Actions"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Amazon"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":true,
+        "list_of_years_identified_in_the_question":[
+            "2019",
+            "2022"
+        ],
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "Carbon Intensity"
         ],
-        "there_is_any_specific_year_identified_in_the_question":true,
-        "list_of_years_identified_in_the_question":[
-            "2019",
-            "2020",
-            "2021",
-            "2022"
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
         ],
-        "is_a_question_about_trends_or_changes_over_time":true,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":true,
+        "list_of_comparative_data_points_identified_in_the_question":[
+            "C02e per $ of GMS"
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Amazon"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "Total Carbon Footprint"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2019",
-            "2020",
-            "2021",
             "2022"
         ],
-        "is_a_question_about_trends_or_changes_over_time":true,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "Total Carbon Footprint"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":true,
+        "list_of_comparative_data_points_identified_in_the_question":[
+            "MMT CO2e"
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
             "The Climate Page Fund"
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
 
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-            "climate pledge"
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
+            "14"
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "climate pledge infographic"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "corporate emissions",
-            "renewable electricity"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2020"
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "corporate emissions",
+            "renewable electricity"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Apple"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "carbon footprint",
             "avoided emissions"
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Apple"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "plastic reduction"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2015"
         ],
-        "is_a_question_about_trends_or_changes_over_time":true,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "plastic reduction",
+            "packaging"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":true,
+        "list_of_comparative_data_points_identified_in_the_question":[
+            "2015"
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "waste redirection"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "waste redirection",
+            "landfill"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Apple"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-            "Apple University"
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2021"
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "staff education",
+            "Apple University"
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "millions of gallons of freshwater saved"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2018"
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "freshwater saved"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "Total Packaging resources"
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2017",
             "2018",
@@ -491,626 +1090,1479 @@
             "2020",
             "2021"
         ],
-        "is_a_question_about_trends_or_changes_over_time":true,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "packaging resources"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":true,
+        "list_of_comparative_data_points_identified_in_the_question":[
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021"
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
+            "Carbon Call initiative"
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
             "Carbon Call"
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
 
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":true
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":true
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "sustainability solutions"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
+            "scale of sustainability solutions"
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Microsoft"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "water access"
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
-    },
-    {
-        "there_is_any_company_identified_in_the_question":true,
-        "list_of_companies_identified_in_the_question":[
-            "Microsoft"
-        ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
             "water access"
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":true,
+        "list_of_locations_identified_in_the_question":[
+            "India"
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Microsoft"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "water access"
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
-
-        ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
-    },
-    {
-        "there_is_any_company_identified_in_the_question":true,
-        "list_of_companies_identified_in_the_question":[
-            "Microsoft"
-        ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
             "water access"
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":true,
+        "list_of_locations_identified_in_the_question":[
+            "Indonesia"
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Microsoft"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-            "acres of land"
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
         ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "water access"
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "water access"
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":true,
+        "list_of_locations_identified_in_the_question":[
+            "Brazil"
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Microsoft"
+        ],
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "water access"
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "water access"
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":true,
+        "list_of_locations_identified_in_the_question":[
+            "Mexico"
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "Microsoft"
+        ],
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2025"
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":true
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "land protection"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
+            "land protection by 2025"
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "Ecosystems Chart 1"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":true,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+            "Ecosystems Chart 1"
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
+            "56"
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "key insight"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
+            "61"
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "key insight"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":true
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
+            "66"
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "commitments"
+        ],
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
+            "commitments"
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "Key project"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":true
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "sub sections"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
+            "14"
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":true,
+        "list_of_comparative_data_points_identified_in_the_question":[
+            "category labels"
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":true,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+            "chart"
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Meta"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "COVID-19 misinformation"
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "rules against misinformation"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":true
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Facebook"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "COVID-19 misinformation"
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "misleading information removal"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":true
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Facebook"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":true,
+        "list_of_corporate_goals_identified_in_the_question":[
+            "Marketing Analytics Professional Certificate"
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "landing page"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "climate change"
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "user surveys"
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":true,
+        "list_of_comparative_data_points_identified_in_the_question":[
+            "countries"
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":true,
+        "list_of_locations_identified_in_the_question":[
+            "countries"
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":true,
+        "there_is_any_year_identified_in_the_question":true,
         "list_of_years_identified_in_the_question":[
             "2021"
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "2021 Highlights"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":false,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
+            "Workplaces"
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":true,
+        "list_of_page_numbers_identified_in_the_question":[
+            "43"
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
+            "Oceans"
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "Greenhouse Gas Emissions"
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Netflix"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":true,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+            "highlights about the company"
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Netflix"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-            "Sustainability Strategy"
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":true,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+            "Netflix's Sustainability Strategy is music to our ears..."
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
 
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":true,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":true,
+        "list_of_environmental_metrics_identified_in_the_question":[
             "Scope 1 emissions",
             "Scope 2 emissions"
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "emission reductions levers"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":true,
         "list_of_companies_identified_in_the_question":[
             "Netflix"
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
             "Sustainability Across the Value Chain"
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
 
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":true,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+            "This is what industry leadership looks like..."
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":true,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+            "quote by Xiye Bastida"
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     },
     {
         "there_is_any_company_identified_in_the_question":false,
         "list_of_companies_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":false,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
-
-        ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
-
-        ],
-        "there_is_any_specific_year_identified_in_the_question":false,
+        "there_is_any_year_identified_in_the_question":false,
         "list_of_years_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":false,
-        "is_a_question_about_goals_or_targets":false
-    },
-    {
-        "there_is_any_company_identified_in_the_question":false,
-        "list_of_companies_identified_in_the_question":[
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
 
         ],
-        "there_is_any_initiative_or_program_identified_in_the_question":true,
-        "list_of_initiatives_or_programs_identified_in_the_question":[
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":false,
+        "list_of_social_impact_topics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_initiatives":false,
+        "list_of_initiatives_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":true,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+            "quote by Aditi Sharma"
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
+    },
+    {
+        "there_is_any_company_identified_in_the_question":true,
+        "list_of_companies_identified_in_the_question":[
+            "partner companies"
+        ],
+        "there_is_any_year_identified_in_the_question":false,
+        "list_of_years_identified_in_the_question":[
+
+        ],
+        "there_is_any_page_number_identified_in_the_question":false,
+        "list_of_page_numbers_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_environmental_metrics":false,
+        "list_of_environmental_metrics_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_social_impact":true,
+        "list_of_social_impact_topics_identified_in_the_question":[
             "Inclusion and Diversity"
         ],
-        "there_is_any_financial_or_environmental_metric_identified_in_the_question":false,
-        "list_of_financial_or_environmental_metrics_identified_in_the_question":[
+        "is_a_question_about_corporate_goals":false,
+        "list_of_corporate_goals_identified_in_the_question":[
 
         ],
-        "there_is_any_specific_year_identified_in_the_question":false,
-        "list_of_years_identified_in_the_question":[
+        "is_a_question_about_specific_initiatives":true,
+        "list_of_initiatives_identified_in_the_question":[
+            "spotlighted initiatives"
+        ],
+        "is_a_question_about_comparative_data":false,
+        "list_of_comparative_data_points_identified_in_the_question":[
 
         ],
-        "is_a_question_about_trends_or_changes_over_time":false,
-        "is_a_question_about_identification_of_factors_or_insights":true,
-        "is_a_question_related_to_a_specific_page_or_section_of_a_document":true,
-        "is_a_question_about_goals_or_targets":false
+        "is_a_question_about_highlights_or_summaries":false,
+        "list_of_highlights_or_summaries_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_testimonials_or_quotes":false,
+        "list_of_testimonials_or_quotes_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_locations":false,
+        "list_of_locations_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_specific_charts_or_graphs":false,
+        "list_of_charts_or_graphs_identified_in_the_question":[
+
+        ],
+        "is_a_question_about_policy_or_advocacy":false
     }
 ]

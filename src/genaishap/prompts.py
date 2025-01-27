@@ -59,11 +59,13 @@ The following are the questions for you to process:
 
 # TODO: Evaluate few shot vs one shot performance
 _FILL_OUT_FEATURES_PROMPT : str = """
-Use the following list of questions as source to fill out each feature.
+Use the following list of questions (user inputs) as source to fill out each feature.
 
 - Use JSON format to present the output.
-- The definition of the features is in JSON format.
-- Each feature has a type from the following list of feature types: "boolean" or "list_of_strings"
+- The definition of the features is also in JSON format.
+- Each feature has a type from the following list of feature types: "boolean" or "list_of_strings".
+- Make sure that all questions (use inputs) in the input have values for all the features. If in the input you have 9 questions and 12 features, the output should have 9 questions with values for each of the 12 features as in the example. Don't produce an incomplete output. 
+- In the output keep the same question string as it is in the input.
 
 ---
 

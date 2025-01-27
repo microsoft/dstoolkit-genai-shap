@@ -6,7 +6,7 @@ calculated
 """
 
 from typing import List, Dict, Any, Union
-from pydantic import BaseModel, ValidationError, PositiveInt
+from pydantic import BaseModel, PositiveInt
 import pandas as pd
 from openai import AzureOpenAI
 import os
@@ -21,6 +21,7 @@ from ._utils import (
     FType
 )
 from .prompts import _CREATE_FEATURES_PROMPT, _FILL_OUT_FEATURES_PROMPT
+from joblib import Parallel, delayed
 
 class Feature(BaseModel):
     feature : str
@@ -72,21 +73,22 @@ class Featurizer(BaseModel):
         """
 
         if not isinstance(df, pd.DataFrame):
-            raise ValidationError("Parameter is not a pandas DataFrame.")
+            raise ValueError(
+                "Parameter is not a pandas DataFrame.")
         
         if 'user_input' not in df.columns:
-            raise ValidationError("Missing user_input column in DataFrame.")
+            raise ValueError("Missing user_input column in DataFrame.")
 
         if df['user_input'].isna().any():
-            raise ValidationError("user_input column has null values")
+            raise ValueError("user_input column has null values")
 
         if not df['user_input'].is_unique:
-            raise ValidationError("user_input column has duplicated values")
+            raise ValueError("user_input column has duplicated values")
         
         try:
             user_inputs = df['user_input'].astype("string").to_list()
         except:
-            raise ValidationError("Column user_input has non-string values.")
+            raise ValueError("Column user_input has non-string values.")
 
         return cls(user_inputs=user_inputs)
 
@@ -123,12 +125,12 @@ class Featurizer(BaseModel):
         """
 
         if not isinstance(model_client, AzureOpenAI):
-            raise ValidationError(
+            raise ValueError(
                 "Only AzureOpenAI model client is supported by now."
             )
 
         if sample_size <= 0.0 or sample_size > 1.0:
-            raise ValidationError(
+            raise ValueError(
                 "sample_size value is not valid, > 0.0 and <= 1.0"
             )
 
@@ -197,10 +199,10 @@ class Featurizer(BaseModel):
         try: 
             sample_size = float(sample_size)
         except:
-            raise ValidationError("sample_size is not numerical.")
+            raise ValueError("sample_size is not numerical.")
 
         if sample_size <= 0.0 or sample_size > 1.0:
-            raise ValidationError(
+            raise ValueError(
                 "sample_size value is not valid, > 0.0 and <= 1.0"
             )
 
@@ -229,9 +231,11 @@ class Featurizer(BaseModel):
         """
 
         if len(feature_values.feature_values) != len(self.user_inputs):
-            raise ValidationError(
-                "Filling output size is different than the input size. "
-                "Consider the use of a bigger model >=gpt-4o."
+            raise ValueError(
+                f"Filling output size, {len(feature_values.feature_values)}, "
+                f"is different than the input size {len(self.user_inputs)}. "
+                "Consider the use of a bigger model >=gpt-4o, or reduce the "
+                "batch size."
             )
         
         differences = []
@@ -259,7 +263,8 @@ class Featurizer(BaseModel):
         model_client : Any,
         model_name : str,
         batch_size : PositiveInt = 20,
-        seed : int = 42
+        seed : int = 42,
+        n_jobs : int = -1
     ) -> None:
         """ Generic method to fillout the features.
         
@@ -274,43 +279,52 @@ class Featurizer(BaseModel):
             Size of the batch of questions to fill out the features.
         seed : int
             Ramdom seed
+        n_jobs : int
+            Number of workers for parallel execution using joblib. If -1 use
+            all available CPUs (-1 for all CPUs, -2 for all but one, etc.)
+            Default: -1
         """
 
         if not isinstance(model_client, AzureOpenAI):
-            raise ValidationError(
+            raise ValueError(
                 "Only AzureOpenAI model client is supported by now."
             )
 
         batches = split_list(self.user_inputs, batch_size)
         features_json = self.features.model_dump_json(indent=4)
 
-        feature_value_list = []
-
-        for questions in tqdm(batches):
-        
-            questions_string = question_formating(questions)
-        
-            prompt = _FILL_OUT_FEATURES_PROMPT.format(
-                features = features_json,
-                question_batch = questions_string
-            )
+        with tqdm(total=len(batches)) as progress_bar:
+                       
+            def process_batch(questions):
+                
+                questions_string = question_formating(questions)
+                
+                prompt = _FILL_OUT_FEATURES_PROMPT.format(
+                    features = features_json,
+                    question_batch = questions_string
+                )
     
-            # TODO: Check how to do it in a more generic way
-            completion = model_client.beta.chat.completions.parse( 
-                model=model_name,
-                messages=[
-                    {
-                        "role": "user",
-                        "content": prompt,
-                    },
-                ],
-                temperature=0.0,
-                top_p=0.0,
-                seed=seed,
-                response_format=FeatureValues 
+                # TODO: Check how to do it in a more generic way
+                completion = model_client.beta.chat.completions.parse( 
+                    model=model_name,
+                    messages=[
+                        {
+                            "role": "user",
+                            "content": prompt,
+                        },
+                    ],
+                    temperature=0.0,
+                    top_p=0.0,
+                    seed=seed,
+                    response_format=FeatureValues 
+                )
+    
+                progress_bar.update()
+                return completion.choices[0].message.parsed
+                
+            feature_value_list = Parallel(n_jobs=n_jobs, backend='threading')(
+                delayed(process_batch)(batch) for batch in batches
             )
-            
-            feature_value_list.append(completion.choices[0].message.parsed)
 
         unified_list : List[FeaturesWithValue] = []
 

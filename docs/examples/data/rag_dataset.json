@@ -1,6 +1,201 @@
 {
     "examples": [
+         {
+            "query": "What is the objective of the Carbon Call initiative?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "In February 2022, Microsoft, ClimateWorks Foundation, and over 20 leading organizations launched an important new initiative called the Carbon Call. The objective of this program is to unify the world around a carbon accounting system that is more reliable and interoperable."
+            ],
+            "reference_answer": "The objective of Carbon Call is to unify the world around a carbon accounting system that is more reliable and interoperable",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
         {
+            "query": "What are the three key areas that will enable the scale of sustainability solutions?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "We will continue\ninvesting in three key areas that will enable the scale\nof sustainability solutions needed to address the\nclimate crisis:\n1 Advancing AI solutions for greater\nclimate impact.\n2 Accelerating the development of sustainability\nmarkets through investment.\n3 Creating tools that advance emissions\nmeasurement and compliance."
+            ],
+            "reference_answer": "1 Advancing AI solutions for greater climate impact.\n2 Accelerating the development of sustainability markets through investment.\n3 Creating tools that advance emissions measurement and compliance.",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "How many people in India did Microsoft provide water access to?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "Water Table 3\n\nIndia: 309,921\nIndonesia: 225,389\nBrazil: 16,408\nMexico: 340"
+            ],
+            "reference_answer": "309,921",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "How many people in Indonesia did Microsoft provide water access to?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "Water Table 3\n\nIndia: 309,921\nIndonesia: 225,389\nBrazil: 16,408\nMexico: 340"
+            ],
+            "reference_answer": "225,389",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "How many people in Brazil did Microsoft provide water access to?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "Water Table 3\n\nIndia: 309,921\nIndonesia: 225,389\nBrazil: 16,408\nMexico: 340"
+            ],
+            "reference_answer": "16,408",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "How many people in Mexico did Microsoft provide water access to?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "Water Table 3\n\nIndia: 309,921\nIndonesia: 225,389\nBrazil: 16,408\nMexico: 340"
+            ],
+            "reference_answer": "340",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "How many more acres of land does Microsoft need to protect by 2025 according to Ecosystems Chart 1?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "Ecosystems Chart 1\nAchieving our target of protecting more land than we use by 2025\nAs of FY22, Microsoft has contracted to protect 17,268 acres of land, which is over 50 percent more than the land we use to operate, and 12,270 acres were designated as permanently protected."
+            ],
+            "reference_answer": "4998 more acres",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "What key insight was listed in page 56 of the document?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "25%\nWe are reducing idle\npower consumption\nof servers when they\nare not actively being\nused and expect\nup to a 25 percent\nreduction in energy\nusage for these\nunallocated servers."
+            ],
+            "reference_answer": "25%\nWe are reducing idle power consumption of servers when they are not actively being used and expect up to a 25 percent reduction in energy usage for these unallocated servers.",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "What key insight was listed in page 61 of the document?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "100%\nOur key European\nand American\ndistribution centers\nnow produce over\ntwo million kWh of\nsolar energy and are\n100 percent powered\nby renewable energy."
+            ],
+            "reference_answer": "100%\nOur key European and American distribution centers now produce over two million kWh of solar energy and are 100 percent powered by renewable energy.",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "What are the four commitments listed on page 66?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "Our commitment\nUsing our voice on climate-related public policy issues\nInvesting in climate innovation\nDriving collective action\nEmpowering our global workforce"
+            ],
+            "reference_answer": "1. Using our voice on climate-related public policy issues\n2. Investing in climate innovation\n3. Driving collective action\n4. Empowering our global workforce",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "What is the last Key project listed under Policy and advocacy section?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "Making green jobs, skills, and\nentrepreneurship central to climate action\nUsing its Economic Graph insights, LinkedIn embarked\non a major research initiative focused on the rise\nand proliferation of green skills throughout the labor\nmarket. The 2022 Global Green Skills Report brings this\nresearch into focus through two key findings: 1) demand\nfor green skills is on track to outpace supply, and 2) not\nonly are green jobs growing, but also green skills are\nbecoming increasingly common across existing jobs\nthat are not traditionally thought of as green. At COP26,\nLinkedIn announced it would be one of the founding\npartners on the U.S. State Department's Connecting\nClimate Entrepreneurs initiative, through which the\nUS government will catalyze resources to support job\ngrowth by climate entrepreneurs in the global south."
+            ],
+            "reference_answer": "Making green jobs, skills, and entrepreneurship central to climate action.",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "What are the sub sections for \"What We Create\" section of the document?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "64 What We Create\nRaising Awareness\nTackling Climate Misinformation\nBuilding the Metaverse"
+            ],
+            "reference_answer": "Raising Awareness, Tackling Climate Misinformation, and Building the Metaverse",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+        {
+            "query": "What are the category labels for each topic in the chart of page 14?",
+            "query_by": {
+                "model_name": "",
+                "type": "human"
+            },
+            "reference_contexts": [
+                "Important, Very Important, Critical"
+            ],
+            "reference_answer": "Important, Very Important, Critical",
+            "reference_answer_by": {
+                "model_name": "",
+                "type": "human"
+            }
+        },
+	{
             "query": "Can you provide for me the three highlights for the GHG emissions section of the Advancing Carbon-Free Energy Performance Highlights?",
             "query_by": {
                 "model_name": "",
@@ -330,201 +525,7 @@
                 "type": "human"
             }
         },
-        {
-            "query": "What is the objective of the Carbon Call initiative?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "In February 2022, Microsoft, ClimateWorks Foundation, and over 20 leading organizations launched an important new initiative called the Carbon Call. The objective of this program is to unify the world around a carbon accounting system that is more reliable and interoperable."
-            ],
-            "reference_answer": "The objective of Carbon Call is to unify the world around a carbon accounting system that is more reliable and interoperable",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "What are the three key areas that will enable the scale of sustainability solutions?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "We will continue\ninvesting in three key areas that will enable the scale\nof sustainability solutions needed to address the\nclimate crisis:\n1 Advancing AI solutions for greater\nclimate impact.\n2 Accelerating the development of sustainability\nmarkets through investment.\n3 Creating tools that advance emissions\nmeasurement and compliance."
-            ],
-            "reference_answer": "1 Advancing AI solutions for greater climate impact.\n2 Accelerating the development of sustainability markets through investment.\n3 Creating tools that advance emissions measurement and compliance.",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "How many people in India did Microsoft provide water access to?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "Water Table 3\n\nIndia: 309,921\nIndonesia: 225,389\nBrazil: 16,408\nMexico: 340"
-            ],
-            "reference_answer": "309,921",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "How many people in Indonesia did Microsoft provide water access to?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "Water Table 3\n\nIndia: 309,921\nIndonesia: 225,389\nBrazil: 16,408\nMexico: 340"
-            ],
-            "reference_answer": "225,389",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "How many people in Brazil did Microsoft provide water access to?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "Water Table 3\n\nIndia: 309,921\nIndonesia: 225,389\nBrazil: 16,408\nMexico: 340"
-            ],
-            "reference_answer": "16,408",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "How many people in Mexico did Microsoft provide water access to?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "Water Table 3\n\nIndia: 309,921\nIndonesia: 225,389\nBrazil: 16,408\nMexico: 340"
-            ],
-            "reference_answer": "340",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "How many more acres of land does Microsoft need to protect by 2025 according to Ecosystems Chart 1?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "Ecosystems Chart 1\nAchieving our target of protecting more land than we use by 2025\nAs of FY22, Microsoft has contracted to protect 17,268 acres of land, which is over 50 percent more than the land we use to operate, and 12,270 acres were designated as permanently protected."
-            ],
-            "reference_answer": "4998 more acres",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "What key insight was listed in page 56 of the document?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "25%\nWe are reducing idle\npower consumption\nof servers when they\nare not actively being\nused and expect\nup to a 25 percent\nreduction in energy\nusage for these\nunallocated servers."
-            ],
-            "reference_answer": "25%\nWe are reducing idle power consumption of servers when they are not actively being used and expect up to a 25 percent reduction in energy usage for these unallocated servers.",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "What key insight was listed in page 61 of the document?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "100%\nOur key European\nand American\ndistribution centers\nnow produce over\ntwo million kWh of\nsolar energy and are\n100 percent powered\nby renewable energy."
-            ],
-            "reference_answer": "100%\nOur key European and American distribution centers now produce over two million kWh of solar energy and are 100 percent powered by renewable energy.",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "What are the four commitments listed on page 66?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "Our commitment\nUsing our voice on climate-related public policy issues\nInvesting in climate innovation\nDriving collective action\nEmpowering our global workforce"
-            ],
-            "reference_answer": "1. Using our voice on climate-related public policy issues\n2. Investing in climate innovation\n3. Driving collective action\n4. Empowering our global workforce",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "What is the last Key project listed under Policy and advocacy section?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "Making green jobs, skills, and\nentrepreneurship central to climate action\nUsing its Economic Graph insights, LinkedIn embarked\non a major research initiative focused on the rise\nand proliferation of green skills throughout the labor\nmarket. The 2022 Global Green Skills Report brings this\nresearch into focus through two key findings: 1) demand\nfor green skills is on track to outpace supply, and 2) not\nonly are green jobs growing, but also green skills are\nbecoming increasingly common across existing jobs\nthat are not traditionally thought of as green. At COP26,\nLinkedIn announced it would be one of the founding\npartners on the U.S. State Department's Connecting\nClimate Entrepreneurs initiative, through which the\nUS government will catalyze resources to support job\ngrowth by climate entrepreneurs in the global south."
-            ],
-            "reference_answer": "Making green jobs, skills, and entrepreneurship central to climate action.",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "What are the sub sections for \"What We Create\" section of the document?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "64 What We Create\nRaising Awareness\nTackling Climate Misinformation\nBuilding the Metaverse"
-            ],
-            "reference_answer": "Raising Awareness, Tackling Climate Misinformation, and Building the Metaverse",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
-        {
-            "query": "What are the category labels for each topic in the chart of page 14?",
-            "query_by": {
-                "model_name": "",
-                "type": "human"
-            },
-            "reference_contexts": [
-                "Important, Very Important, Critical"
-            ],
-            "reference_answer": "Important, Very Important, Critical",
-            "reference_answer_by": {
-                "model_name": "",
-                "type": "human"
-            }
-        },
+       
         {
             "query": "How many pages and groups were removed for repeatedly violating Meta's rules against spreading COVID-19 misinformation?",
             "query_by": {

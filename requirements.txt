@@ -8,3 +8,7 @@ llama-index-embeddings-azure-openai
 ragas
 python-dotenv
 matplotlib
+openai==0.28
+azure-search-documents==11.4.0b11
+azure-identity
+azure-ai-inference
